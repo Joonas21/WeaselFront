@@ -43,7 +43,7 @@ const Turku = ({Turku}) => {
     return (
         <div>
             <Link to="/">Home</Link>
-            <h1>Helsinki</h1>
+            <h1>Turku</h1>
             <button onClick={() => setDate("1")}>1 Day</button>
             <button onClick={() => setDate("3")}>3 Day</button>
             {date === "1" && 
